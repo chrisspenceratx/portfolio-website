@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,8 +11,8 @@
     </head>
         
     <body>
-        <header>
-            <nav>
+        <header class="page-header">
+            <nav class="main-navigation page-header__item">
                 <ul role="menubar" class="navigation-list">
                   <li role="presentation">
                     <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
@@ -30,7 +30,7 @@
               </nav>
         </header>
 
-        <form action="" method="post" id="contact-form">
+        <form action="#" method="post" id="contact-form">
             <label class="standard-label" for="first-name">First Name: </label>
             <input type="email" id="first-name" required><br>
 
@@ -41,11 +41,11 @@
             <input type="email" id="contact-email" required><br>
           
             <label class="standard-label" for="telephone">Telephone: </label>
-            <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br>
+            <input type="tel" id="telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br>
           
             <label class="standard-label" for="message">Message: </label>
             <textarea required maxlength="240"></textarea><br>
-            <input type="submit" value="Send message"><br>
+            <input type="submit" id="message" value="Send message"><br>
           </form>
 
           
@@ -60,11 +60,11 @@
             <p>Find me on</p>
             <div class="social-media">
             <!-- Github logo -->
-            <img src="img/github_icon.svg"  width="35px" height="35 px" alt="github">
+            <img src="img/github_icon.svg"  width="35" height="35" alt="github">
             <!-- Twitter logo -->
-            <img src="img/twitter_icon.svg" width="35px" height="35 px" alt="twitter">
+            <img src="img/twitter_icon.svg" width="35" height="35" alt="twitter">
             <!-- LinkedIn logo -->
-            <img src="img/linkedin_icon.svg"  width="35px" height="35 px" alt="linkedin">
+            <img src="img/linkedin_icon.svg"  width="35" height="35" alt="linkedin">
             </div>
         </footer>
 
